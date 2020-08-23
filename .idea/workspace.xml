@@ -41,7 +41,7 @@
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/BierClicker/BierClicker/app" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SORT_ALPHABETICALLY" value="true" />
@@ -163,6 +163,42 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/Moritz/Documents/Android Studio/Wittichenauer_Pfarrbire/app/src/main/res/layout" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="477" y="252" key="#PSD" timestamp="1598136866985">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -188,10 +224,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1594925427657" />
-    <state x="113" y="118" key="CommitChangelistDialog2" timestamp="1595360197168">
+    <state x="113" y="118" key="CommitChangelistDialog2" timestamp="1598216517832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="113" y="118" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595360197168" />
+    <state x="113" y="118" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598216517832" />
     <state x="799" y="275" key="FileChooserDialogImpl" timestamp="1595408291458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -212,15 +248,15 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598214997484" />
-    <state x="2381" y="162" key="SettingsEditor" timestamp="1596091707884">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="340" y="234" key="SettingsEditor" timestamp="1598216499000">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1595969065106" />
+    <state x="340" y="234" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598216499000" />
     <state x="2381" y="162" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596091707884" />
-    <state x="1920" y="688" key="com.intellij.ide.util.TipDialog" timestamp="1598211377838">
+    <state x="2745" y="292" key="com.intellij.ide.util.TipDialog" timestamp="1598216536172">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="1920" y="688" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598211377838" />
+    <state x="2745" y="292" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1598216536172" />
     <state x="1920" y="688" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596091904581" />
     <state x="591" y="65" width="737" height="909" key="find.popup" timestamp="1595969995647">
       <screen x="0" y="0" width="1920" height="1040" />
