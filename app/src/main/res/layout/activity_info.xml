@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/bgColor"
+    app:layout_constraintRight_creator="10"
+    tools:context=".Info">
+
+    <TextView
+        android:id="@+id/tvUeberschrift"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="App Info"
+        android:textAllCaps="true"
+        android:textColor="?attr/textColor"
+        android:textSize="25dp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvversion"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:gravity="right|bottom"
+        android:text="Version: 1.0"
+        android:textAllCaps="true"
+        android:textColor="?attr/metaTextColor"
+        android:textSize="10dp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btback"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        android:foreground="@android:drawable/ic_media_rew"
+        android:textColor="?attr/textColor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="679dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUeberschrift">
+
+        <TextView
+            android:id="@+id/tvUename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Letzter geladener Pfarrbrief"
+            android:textAllCaps="true"
+            android:textColor="?attr/textColor"
+            android:textSize="16dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/tvname"
+
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="28.06.2020%20Pfarrbrief.pdf"
+            android:textColor="?attr/metaTextColor"
+            android:textStyle="normal|bold" />
+
+        <Switch
+            android:id="@+id/swdark"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Darkmode"
+            android:textAllCaps="true"
+            android:textColor="?attr/textColor"
+            android:textSize="16dp"
+            android:textStyle="normal|bold"  />
+
+        <TextView
+            android:id="@+id/tvUeinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sonstiges"
+            android:textAllCaps="true"
+            android:textColor="?attr/textColor"
+            android:textSize="16dp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/tvinfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diese App wird als Freizeitprojekt entwickelt, dadurch können Fehler nicht immer sofort behoben werden. Wenn sie Fehler finden oder Wünsche haben, senden Sie mir eine Email."
+            android:textColor="?attr/metaTextColor"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/btemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail schreiben"
+            android:textAllCaps="true"
+            android:textColor="?attr/textColor"
+            android:textStyle="normal|bold" />
+
+
+        <TextView
+            android:id="@+id/tvCopyright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="©Mok"
+            android:textColor="?attr/metaTextColor"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
